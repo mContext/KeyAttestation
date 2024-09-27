@@ -25,6 +25,16 @@ android {
         versionCode = gitCommitCount
         versionName = '1.6.0'
         resourceConfigurations += ['en', 'zh-rCN', 'pt-rBR']
+        applicationId "io.github.mcontext.keyattestation"
+    }
+
+    // 修改输出的 APK 文件名
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            // 定义自定义的文件名，使用 variant.name 和 versionName
+            def newName = "KeyAttestation-${variant.buildType.name}-${variant.versionName}.apk"
+            outputFileName = newName
+        }
     }
 
     signingConfigs {

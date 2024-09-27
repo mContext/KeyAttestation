@@ -1571,6 +1571,106 @@
     "3ee622a0ecbd09ac188f5c4855a619f": {
       "status": "REVOKED",
       "reason": "KEY_COMPROMISE"
+    },
+    "2b0a09a69c59b482ddb8a21786fdd439": {
+      "status": "REVOKED",
+      "reason": "KEY_COMPROMISE"
+    },
+    "5810985728898152653": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "16623831713806747857": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "1653902323508258478": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "4754188387179831718": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "18207673658158413385": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "12327620949908374012": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "14813405412631444771": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "7857171223917578575": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "1415893393487464817": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "3060172519121275631": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "1954785483012959664": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "10845561047281622937": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "2496041401547087770": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "6885722966767738507": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "5566180295247644916": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "927486855755331393": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "6165452071192422130": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "15282787245290348368": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "11313542145862450150": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "11246999805035486387": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "10623557657433978240": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "1440276514173143642": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "7102180478812285056": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
+    },
+    "3949279890763234464": {
+      "status": "REVOKED",
+      "reason": "SOFTWARE_FLAW"
     }
   }
 }

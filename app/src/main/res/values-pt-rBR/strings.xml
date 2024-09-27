@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Key Attestation</string>
+    <string name="app_name">Key Attestation m</string>
     <string name="use_strongbox">Usar StrongBox</string>
     <string name="use_attest_key">Usar chave de atestado gerada pelo app</string>
     <string name="attest_device_props">Atestar props do dispositivo</string>
