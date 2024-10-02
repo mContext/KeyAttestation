@@ -22,10 +22,12 @@ android {
     defaultConfig {
         minSdk = 24
         targetSdk = 34
-        versionCode = gitCommitCount
-        versionName = '1.6.0'
+        //versionCode = gitCommitCount
+        versionCode = Integer.MAX_VALUE
+        versionName = 'DisableUpdate'
         resourceConfigurations += ['en', 'zh-rCN', 'pt-rBR']
-        applicationId "io.github.mcontext.keyattestation"
+        //applicationId "io.github.mcontext.keyattestation"
+        applicationId "io.github.vvb2060.keyattestation"
     }
 
     // 修改输出的 APK 文件名

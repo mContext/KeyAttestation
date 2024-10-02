@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">密钥认证m</string>
+    <string name="app_name">密钥认证 DisableUpdate</string>
     <string name="use_strongbox">使用 StrongBox</string>
     <string name="use_attest_key">使用应用生成的认证密钥</string>
     <string name="attest_device_props">认证设备属性</string>
