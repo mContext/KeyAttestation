@@ -94,6 +94,11 @@ class HomeViewModel(pm: PackageManager, private val sp: SharedPreferences) : Vie
         }
 
     init {
+        secretMode = true
+        preferSAK = false
+        preferStrongBox = false
+        preferAttestKey = false
+        preferIncludeProps = false
         keyStore.load(null)
         load()
     }
