@@ -16,14 +16,14 @@ if (project.rootProject.file("local.properties").exists()) {
 }
 
 android {
-    compileSdk = 34
-    buildToolsVersion = '34.0.0'
+    compileSdk = 35
+    buildToolsVersion = '35.0.0'
     namespace = 'io.github.vvb2060.keyattestation'
     defaultConfig {
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = gitCommitCount
-        versionName = '1.6.0'
+        versionName = '1.6.1'
         resourceConfigurations += ['en', 'zh-rCN', 'pt-rBR']
     }
 
@@ -53,6 +53,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_17
     }
@@ -79,7 +80,7 @@ configurations.configureEach {
 }
 
 dependencies {
-    implementation 'org.bouncycastle:bcprov-jdk18on:1.76'
+    implementation 'org.bouncycastle:bcprov-jdk18on:1.78.1'
     implementation 'com.google.guava:guava:32.1.2-android'
     implementation 'co.nstant.in:cbor:0.9'
 
@@ -91,13 +92,13 @@ dependencies {
     implementation 'dev.rikka.rikkax.recyclerview:recyclerview-adapter:1.3.0'
     implementation 'dev.rikka.rikkax.widget:borderview:1.1.0'
 
-    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'com.google.android.material:material:1.12.0'
 
-    implementation 'androidx.core:core-ktx:1.12.0'
-    implementation 'androidx.fragment:fragment-ktx:1.6.2'
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.fragment:fragment-ktx:1.8.4'
     implementation 'androidx.recyclerview:recyclerview:1.3.2'
 
-    def lifecycleVersion = "2.6.2"
+    def lifecycleVersion = "2.8.6"
     implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycleVersion"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
 
