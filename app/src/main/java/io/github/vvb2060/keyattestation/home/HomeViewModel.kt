@@ -200,9 +200,8 @@ class HomeViewModel(pm: PackageManager, private val sp: SharedPreferences) : Vie
         } catch (e: Exception) {
             throw AttestationException(CODE_UNKNOWN, e)
         }
-        @Suppress("UNCHECKED_CAST")
-        currentCerts = certs as List<X509Certificate>
-        return parseCertificateChain(certs)
+        val currentCerts = certs.filterIsInstance<X509Certificate>()
+        return parseCertificateChain(currentCerts)
     }
 
     fun save(cr: ContentResolver, uri: Uri?) = AppApplication.executor.execute {
