@@ -22,9 +22,17 @@ android {
     defaultConfig {
         minSdk = 24
         targetSdk = 35
-        versionCode = gitCommitCount
-        versionName = '1.6.1'
+        versionCode = Integer.MAX_VALUE
+        versionName = '1.6.1-DisableUpdate'
         resourceConfigurations += ['en', 'zh-rCN', 'pt-rBR']
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            // 定义自定义的文件名，使用 variant.name 和 versionName
+            def apkFileName = "KeyAttestation-${variant.buildType.name}-${variant.versionName}.apk"
+            outputFileName = apkFileName
+        }
     }
 
     signingConfigs {
